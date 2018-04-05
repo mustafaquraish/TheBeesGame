@@ -36,7 +36,7 @@ function setup() {
   
   // Offset that's used as size of single pixel
   // On the VGA display when using the DE2 Board
-  off = windowHeight / rows;
+  off = floor(windowHeight / rows);
   
   // Initialize user to middle of the screen
   px = 80*off;
