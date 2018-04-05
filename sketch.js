@@ -9,7 +9,7 @@ let py;
 let lives = 3;
 
 let bees = [];
-let nbees = 0;
+let nbees = 1;
 
 let gameOver = false;
 
