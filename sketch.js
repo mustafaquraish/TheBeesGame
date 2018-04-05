@@ -200,7 +200,7 @@ class Bee {
   
   update() {
     // If you hit a wall, bounce
-    if (this.x >= RIGHT) {
+    if (this.x >= RIGHT - off) {
       this.dir[0] = 1;
       this.dir[3] = 0; 
     }
@@ -208,7 +208,7 @@ class Bee {
       this.dir[0] = 0;
       this.dir[3] = 1; 
     }
-    if (this.y >= BOTTOM) {
+    if (this.y >= BOTTOM - off) {
       this.dir[1] = 0;
       this.dir[2] = 1; 
     }
